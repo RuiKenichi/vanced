@@ -15,8 +15,9 @@ jobs:
       - name: Setup Java JDK
         uses: actions/setup-java@v3.10.0
         with:
-          java-version: "17"
-          distribution: "zulu"
+          java-version: '17'
+          distribution: 'microsoft'
+          check-latest: true
 
       - name: Download APKs from APKMirror
         run: ./download_apkmirror.sh
@@ -32,4 +33,11 @@ jobs:
               exit 1
             fi
           done
-          rm -rf build
+      
+      - uses: actions/upload-artifact@v3
+        with:
+          name: vanced-latest
+          path: | 
+            build/*.apk
+            !build/*-root.apk
+            vanced-microG.apk

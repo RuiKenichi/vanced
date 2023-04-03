@@ -1,4 +1,46 @@
 # EXCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
+always-autorepeat
+comments
+custom-video-speed
+debugging
+disable-auto-captions
+disable-auto-player-popup-panels
+disable-fullscreen-panels
+downloads
+enable-wide-searchbar
+general-ads
+hide-album-cards
+hide-artist-card
+hide-autoplay-button
+hide-breaking-news-shelf
+hide-captions-button
+hide-cast-button
+hide-create-button
+hide-crowdfunding-box
+hide-email-address
+hide-endscreen-cards
+hide-info-cards
+hide-my-mix
+hide-player-buttons
+hide-shorts-button
+hide-time-and-seekbar
+hide-video-action-buttons
+hide-watch-in-vr
+hide-watermark
+hide-seekbar
+hide-time
+remove-player-button-background
+spoof-app-version
+swipe-controls
+tablet-mini-player
+compact-header
+copy-video-url
+old-quality-layout
+hide-floating-microphone-button
+hide-timestamp
+
 
 # INCLUDE PATCHES FROM BELOW. DO NOT REMOVE THIS LINE
+client-spoof
+disable-startup-shorts-player
 spoof-signature-verification
